@@ -19,3 +19,11 @@ Create basic project with React to run on Vite ( dev server + build tool)
 
 
 Following this guide: https://tailwindcss.com/docs/guides/vite to create tailwindcss configuration
+
+
+
+# References
+
+This project was created with inspiration from:
+> https://www.youtube.com/watch?v=rdqjMN7Q-bk&ab_channel=FrontendFYI%E2%80%93byJeroen
+> JavaScriptMastery : Build and Deploy Apple Website (iphone 15 version)

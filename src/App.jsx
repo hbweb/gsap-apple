@@ -1,15 +1,20 @@
-import { useState } from 'react'
-import './App.css'
+import ChapterNav from './components/ChapterNav'
+import GetToKnow from './components/GetToKnow'
+import Hero from './components/Hero'
+import Highlights from './components/Highlights'
+import Navbar from './components/Navbar'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    </>
+    <main className=''>
+      <div className="bg-gray-50 w-full">
+          <Navbar />
+          <ChapterNav />
+      </div>
+      <Hero />
+      <GetToKnow />
+      <Highlights />
+    </main>
   )
 }
 
