@@ -14,7 +14,7 @@ const Highlights = () => {
         <div className="mb-12 w-full md:flex items-end justify-between">
           <h1 className="section-heading">Get the highlights</h1>
           <div className="flex flex-wrap items-end gap-5">
-            <p>What the film</p>
+            <p>Watch the film</p>
           </div>
         </div>
 
