@@ -225,7 +225,6 @@ export const Card = ({
       <BlurImage
         src={card.src}
         alt={card.title}
-        fill
         className="object-cover absolute z-10 inset-0" />
     </motion.button>
   </>);
