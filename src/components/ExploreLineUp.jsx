@@ -14,7 +14,7 @@ const ExploreLineup = () => {
         <div className="mb-12 w-full md:flex items-end justify-between">
           <h1 className="section-heading">Explore the lineup</h1>
           <div className="flex flex-wrap items-end gap-5">
-            <a href="#" className="text-blue hover:underline">Compare all models ></a>
+            <a href="#" className="text-blue hover:underline">Compare all models</a>
           </div>
         </div>
       </div>

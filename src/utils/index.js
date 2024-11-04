@@ -3,7 +3,7 @@ import hero from "/assets/images/hero.jpeg";
 export const heroImg = hero;
 
 import hmv from "/assets/videos/hero.mp4";
-import smallmv from "/assets/videos/smallHero.mp4";
+import smallmv from "/assets/videos/smallHero16.mp4";
 
 import hmv16 from "/assets/videos/xlargeHero16.mp4";
 import smallmv16 from "/assets/videos/smallHero16.mp4";
