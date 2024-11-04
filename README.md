@@ -22,6 +22,13 @@ Following this guide: https://tailwindcss.com/docs/guides/vite to create tailwin
 
 
 
+# Deploy
+
+Project has been setup for deploy on: https://react-iphone.web.app/
+All PR merged into `main` will be deployed automatically.
+
+
+
 # References
 
 This project was created with inspiration from:
