@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "seedrs-sm": {
+      "hosting": {
+        "react-iphone": [
+          "react-iphone"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "seedrs-sm"
+  }
+}
