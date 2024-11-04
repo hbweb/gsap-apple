@@ -1,7 +1,7 @@
 import ChapterNav from './components/ChapterNav'
+import ExploreLineup from './components/ExploreLineUp'
 import GetToKnow from './components/GetToKnow'
 import Hero from './components/Hero'
-import Highlights from './components/Highlights'
 import Navbar from './components/Navbar'
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       </div>
       <Hero />
       <GetToKnow />
-      <Highlights />
+      <ExploreLineup />
     </main>
   )
 }

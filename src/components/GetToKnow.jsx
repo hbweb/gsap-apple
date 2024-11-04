@@ -1,7 +1,15 @@
 import { Card, Carousel } from "./apple-cards-carousel";
 import React from "react";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+
 
 function GetToKnow() {
+
+  useGSAP(() => {
+    gsap.to(".hero-title", { opacity: 1, y: 0, duration: 1 });
+  });
+  
   const cards = data.map((card, index) => (
     <Card
       key={card.src}
@@ -11,17 +19,16 @@ function GetToKnow() {
   ));
 
   return (
-    <>
-      <section className="container mx-auto">
-        <h1 className="hero-title py-2 md:py-20">Get to know iPhone</h1>
-      </section>
-      <div className="w-full h-full py-20">
-        <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
-          Get to know your iSad.
-        </h2>
+    <div className="my-28">
+      <div className="screen-max-width">
+        <div className=" w-full">
+          <h1 className="hero-title py-2 md:pt-10">Get to know iPhone</h1>
+        </div>
+      </div>
+      <div className="w-full h-full pt-10">
         <Carousel items={cards} />
       </div>
-    </>
+    </div>
   );
 }
 
