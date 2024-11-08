@@ -10,7 +10,6 @@
 
 body {
   width: 100dvw;
-  overflow-x: hidden !important;
   height: 100%;
   border-color: #3b3b3b;
   user-select: none;

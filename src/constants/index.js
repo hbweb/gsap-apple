@@ -9,7 +9,7 @@ import {
     yellowImg,
   } from "../utils";
   
-  export const navLists = ["Store", "Mac", "iPad","Watch","TV & Home","AirPods","Accessories", "iPhone", "Support"];
+  export const navLists = ["Store", "Mac", "iPad", "AirPods"];
 
   export const chapterLists = [
     {id: 1, title: 'iPhone 16 Pro', icon: '/assets/images/chapter/iphone_16_pro.svg', newStatus: true},
