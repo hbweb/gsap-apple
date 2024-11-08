@@ -49,7 +49,7 @@ const Hero = () => {
   return (
     <section className="w-full pt-20">
       <div className="screen-max-width">
-        <div className="mb-16 w-full md:flex items-end justify-between">
+        <div className="mb-16 w-full px-4 md:px-0 md:flex items-end justify-between">
           <h1 className="section-heading">iPhone 16 Pro</h1>
           <div className="flex flex-wrap items-end gap-5 hero-tagline">
             <p>Designed to be loved.</p>

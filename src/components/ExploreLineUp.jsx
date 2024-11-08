@@ -3,8 +3,9 @@ import gsap from "gsap";
 
 const ExploreLineup = () => {
   useGSAP(() => {
-    gsap.to(".section-heading", { opacity: 1, y: 0, duration: 1 });
+    gsap.to(".section-heading", { opacity: 1, y: 0 });
   }, []);
+
   return (
     <section
       id="exploreLineup"

@@ -21,8 +21,8 @@ function GetToKnow() {
   return (
     <div className="my-28">
       <div className="screen-max-width">
-        <div className=" w-full">
-          <h1 className="hero-title py-2 md:pt-10">Get to know iPhone</h1>
+        <div className="w-full">
+          <h1 className="hero-title py-2 px-4 md:pt-10">Get to know iPhone</h1>
         </div>
       </div>
       <div className="w-full h-full pt-10">
